@@ -1,0 +1,31 @@
+.main .card-img-top {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  top: -100px;
+  margin-bottom: -70px;
+}
+
+.main .row {
+  justify-content: center;
+}
+.main .card {
+  border-bottom: none!important;
+  border-radius: .25rem .25rem 0 0;
+}
+.main .card-text {
+  font-size: 1.4rem;
+}
+.main .social-network.heading{
+  margin-bottom: 1rem;
+}
+.main .social-network i {
+  font-size: 1.6rem;
+}
+.main .social-network i:hover {
+  font-size: 2rem;
+  color: #5F5AA2;
+}
