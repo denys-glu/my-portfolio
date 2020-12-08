@@ -1,4 +1,4 @@
-.main-section {
+#main-section {
   background-image: url("./assets/images/slider-1-1920x1080.jpg");
   background-size: cover;
   position: relative;
@@ -6,7 +6,7 @@
   z-index: 1;
 }
 
-.main-section:before {
+#main-section:before {
   content: '';
   z-index: -1;
   position: absolute;
@@ -18,7 +18,7 @@
 }
 
 @media (max-width: 576px) {
-  .main-section {
+  #main-section {
     padding-top: 40%;
   }
 }

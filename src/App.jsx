@@ -13,11 +13,12 @@ const App = () => {
   return (
     <React.Fragment>
       <Header />
-      <section className="main-section">
-      <Main />
+      <section id="main-section">
+        <Main />
+      </section>
+      <section id="about-me">
 
       </section>
-
     </React.Fragment>
   )
 }
