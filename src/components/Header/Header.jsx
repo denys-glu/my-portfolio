@@ -7,8 +7,8 @@ import './Header.styles.css';
 const Header = () => {
   return (
     <React.Fragment>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="#">To Top</a>
+      <nav id="navBar" className="navbar navbar-expand-lg navbar-light bg-light">
+        <a className="navbar-brand" href="#navBar">To Top</a>
 
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#myMenu" aria-controls="myMenu" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -17,16 +17,16 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="myMenu">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href="#">About Me</a>
+              <a className="nav-link" href="#about-me">About Me</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Skills</a>
+              <a className="nav-link" href="#skills">Skills</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Projects</a>
+              <a className="nav-link" href="#projects">Projects</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Contact Me</a>
+              <a className="nav-link" href="#footer">Contact Me</a>
             </li>
           </ul>
         </div>
