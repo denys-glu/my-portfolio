@@ -1,15 +1,37 @@
 .yellow-text {
   color: #EAC435
 }
+
 .red-text {
   color: #CA054D
 }
+
 .black-text {
   color: #242325
 }
+
 .orange-text {
   color: #F3752B
 }
+
 .orange-purple {
   color: #5F5AA2
+}
+
+.heading-line:before {
+  content: "";
+  height: 12px;
+  width: 50px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  display: block;
+  background-color: #F3752B;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.mr-top-4rm {
+  margin-top: 4rem;
 }
