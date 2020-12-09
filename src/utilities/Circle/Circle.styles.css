@@ -1,0 +1,29 @@
+#circle {
+  margin-bottom: 1.6rem;
+}
+#circle .progress-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  letter-spacing: 0;
+  text-align: center;
+  transform: translate(-50%, 15px);
+  color: #777;
+}
+
+#circle .radial-progress {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+#circle .radial-progress .progressbar-text:after {
+  content: '%';
+}
+
+#circle .radial-progress .progressbar-text {
+  font-size: 2.2em;
+  font-weight: 500;
+  padding-bottom: 25px!important;
+  color: #333!important;
+}
