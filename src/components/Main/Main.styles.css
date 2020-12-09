@@ -23,7 +23,10 @@
   margin-bottom: 1rem;
 }
 #main-section .social-network div{
-height: 30px;
+  height: 30px;
+}
+#main-section .social-network a {
+  color: #000000;
 }
 #main-section .social-network i {
   font-size: 1.6rem;

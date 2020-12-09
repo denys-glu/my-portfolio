@@ -21,9 +21,15 @@ export default function MediaCard() {
                 <p className="card-text orange-text">Fullstack Developer</p>
                 <h5 className="red-text social-network heading">Social networks:</h5>
                 <div className="row social-network">
-                  <div className="col-3"><i className="fab fa-linkedin-in"></i></div>
-                  <div className="col-3"><i className="fab fa-github-square"></i></div>
-                  <div className="col-3"><i className="fab fa-aws"></i></div>
+                  <div className="col-3">
+                    <a href="https://www.linkedin.com/in/denys-glukhovskyi-098227108/" target="_blank"><i className="fab fa-linkedin-in"></i></a>
+                  </div>
+                  <div className="col-3">
+                    <a href="https://github.com/denys-glu" target="_blank"><i className="fab fa-github-square"></i></a>
+                    </div>
+                  <div className="col-3">
+                    <a href="http://18.224.15.81/" target="_blank"><i className="fab fa-aws"></i></a>
+                    </div>
                 </div>
               </div>
             </div>
