@@ -9,7 +9,7 @@ export default function MediaCard() {
 
   return (
     <React.Fragment>
-      <div className="container main">
+      <div className="container">
         <div className="row ">
           <div className="col-xs-8 col-sm-8 col-md-6 col-lg-6">
             <div className="card">
@@ -21,9 +21,9 @@ export default function MediaCard() {
                 <p className="card-text orange-text">Fullstack Developer</p>
                 <h5 className="red-text social-network heading">Social networks:</h5>
                 <div className="row social-network">
-                  <div className="col-2"><i className="fab fa-linkedin-in"></i></div>
-                  <div className="col-2"><i className="fab fa-github-square"></i></div>
-                  <div className="col-2"><i className="fab fa-aws"></i></div>
+                  <div className="col-3"><i className="fab fa-linkedin-in"></i></div>
+                  <div className="col-3"><i className="fab fa-github-square"></i></div>
+                  <div className="col-3"><i className="fab fa-aws"></i></div>
                 </div>
               </div>
             </div>

@@ -3,8 +3,9 @@ import React from 'react';
 //Styles
 import './App.css';
 //Components
-import Main from './components/Main/Main';
 import Header from './components/Header/Header';
+import Main from './components/Main/Main';
+import AboutMe from './components/AboutMe/AboutMe';
 
 
 
@@ -17,7 +18,7 @@ const App = () => {
         <Main />
       </section>
       <section id="about-me">
-
+        <AboutMe />
       </section>
     </React.Fragment>
   )
