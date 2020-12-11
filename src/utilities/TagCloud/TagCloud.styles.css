@@ -1,0 +1,19 @@
+.tag-container {
+  display: flex;
+  justify-content: center;
+}
+
+.tag-container .tagcloud--item {
+  color: #8C5383;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-shadow: 2px 2px #8c53835d;
+  transition: font-size 1s;
+}
+
+.tag-container .tagcloud--item:hover {
+  color: #F56C6C;
+  cursor: default;
+  font-size: 2rem;
+  
+}
