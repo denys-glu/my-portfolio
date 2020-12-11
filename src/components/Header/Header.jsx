@@ -7,8 +7,8 @@ import './Header.styles.css';
 const Header = () => {
   return (
     <React.Fragment>
-      <nav id="navBar" className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="#navBar">To Top</a>
+      <nav id="navBar" className="navbar fixed-top navbar-expand-lg navbar-light yellow-bkg">
+        <a className="navbar-brand" href="#main-section">To Top</a>
 
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#myMenu" aria-controls="myMenu" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>

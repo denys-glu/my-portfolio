@@ -23,9 +23,9 @@ const App = () => {
       <section id="about-me" className="mr-top-4rm">
         <AboutMe />
       </section>
-      <section id="projects" className="mr-top-4rm">
+      {/* <section id="projects" className="mr-top-4rm">
         <Projects />
-      </section>
+      </section> */}
       <section id="skills" className="mr-top-4rm">
         <Skills />
       </section>

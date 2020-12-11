@@ -30,6 +30,8 @@
 }
 #main-section .social-network i {
   font-size: 1.6rem;
+  transition: font-size .4s;
+
 }
 #main-section .social-network i:hover {
   font-size: 2rem;

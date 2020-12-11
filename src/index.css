@@ -14,10 +14,29 @@
   color: #F3752B
 }
 
-.orange-purple {
+.purple-text {
   color: #5F5AA2
 }
 
+.yellow-bkg {
+  background-color: #EAC435;
+}
+
+.red-bkg {
+  background-color: #CA054D;
+}
+
+.black-bkg {
+  background-color: #242325;
+}
+
+.orange-bkg {
+  background-color: #F3752B;
+}
+
+.purple-bkg {
+  background-color: #5F5AA2;
+}
 .heading-line:before {
   content: "";
   height: 12px;
