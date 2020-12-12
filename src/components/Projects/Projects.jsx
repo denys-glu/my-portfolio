@@ -21,7 +21,11 @@ const Projects = () => {
           <h3>Projects</h3>
           <h6 className="text-secondary uppercase">Some of my projects</h6>
         </div>
-        <div className="col-12 col-sm-6 col-md-6 col-lg-4">
+        <div className="col">
+          <div className="row">
+
+      
+        <div className="col-12 col-sm-6 col-md-12 col-lg-6">
           <div className="card">
             <img src={vfLogo} className="card-img-top" width="288" height="288" alt="my vodafone project logo" />
             <div className="card-body">
@@ -105,8 +109,8 @@ const Projects = () => {
           </div>
           {/* Modal ends */}
         </div>
-        <div className="col-12 col-sm-6 col-md-6 col-lg-4">
-        <div className="card">
+        <div className="col-12 col-sm-6 col-md-12 col-lg-6 pt-3">
+          <div className="card">
             <img src={myKanban} className="card-img-top" width="288" height="288" alt="my vodafone project logo" />
             <div className="card-body">
               <h3 className="card-title">My Kanban</h3>
@@ -128,7 +132,7 @@ const Projects = () => {
                   </button>
                 </div>
                 <div className="modal-body">
-                  
+
                   <div className="project-description mt-4">
                     <h5 className="text-center">Project highlights</h5>
                     <ul class="list-group">
@@ -148,6 +152,8 @@ const Projects = () => {
             </div>
           </div>
           {/* Modal ends */}
+        </div>
+        </div>
         </div>
       </div>
     </div>
