@@ -37,6 +37,11 @@
 .purple-bkg {
   background-color: #5F5AA2;
 }
+.btn-main {
+  color: #fff;
+  background-color: #EAC435;
+  border-color: #EAC435;
+}
 .heading-line:before {
   content: "";
   height: 12px;
