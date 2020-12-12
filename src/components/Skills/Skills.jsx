@@ -10,7 +10,7 @@ const Skills = () => {
     <React.Fragment>
       <div className="container">
         <div className="row">
-          <div className="col-3">
+          <div className="col-12 col-sm-3">
             <div className="heading-line"></div>
             <h3>Skills</h3>
             <h6 className="text-secondary uppercase">Some skills that I've gained</h6>

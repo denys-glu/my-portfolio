@@ -42,6 +42,11 @@
   background-color: #EAC435;
   border-color: #EAC435;
 }
+.btn-main:hover {
+  color: #fff;
+  background-color: #cead39;
+  border-color: #cead39;
+}
 .heading-line:before {
   content: "";
   height: 12px;
