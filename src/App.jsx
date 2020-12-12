@@ -20,16 +20,16 @@ const App = () => {
       <section id="main-section">
         <Main />
       </section>
-      <section id="about-me" className="mr-top-4rm">
+      <section id="about-me" className="pr-top-4rm">
         <AboutMe />
       </section>
-      {/* <section id="projects" className="mr-top-4rm">
+      <section id="projects" className="pr-top-4rm">
         <Projects />
-      </section> */}
-      <section id="skills" className="mr-top-4rm">
+      </section>
+      <section id="skills" className="pr-top-4rm">
         <Skills />
       </section>
-      <section id="footer" className="mr-top-4rm">
+      <section id="footer" className="pr-top-4rm">
         <Footer />
       </section>
     </React.Fragment>
