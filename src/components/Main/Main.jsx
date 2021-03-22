@@ -26,10 +26,7 @@ export default function MediaCard() {
                   </div>
                   <div className="col-3">
                     <a href="https://github.com/denys-glu" target="_blank"><i className="fab fa-github-square"></i></a>
-                    </div>
-                  <div className="col-3">
-                    <a href="http://18.224.15.81/" target="_blank"><i className="fab fa-aws"></i></a>
-                    </div>
+                  </div>
                 </div>
               </div>
             </div>
