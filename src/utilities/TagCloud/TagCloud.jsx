@@ -15,7 +15,7 @@ const texts = [
 ];
 const options = {
   radius: 225,
-  initSpeed: "fast"
+  initSpeed: "normal"
 };
 
 const TagCloud = () => {

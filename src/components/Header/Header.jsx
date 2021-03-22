@@ -5,6 +5,11 @@ import React from 'react'
 import './Header.styles.css';
 
 const Header = () => {
+
+  const changeTheme = e => {
+    console.log(e)
+  }
+
   return (
     <React.Fragment>
       <nav id="navBar" className="navbar fixed-top navbar-expand-lg navbar-light yellow-bkg">
@@ -20,13 +25,16 @@ const Header = () => {
               <a className="nav-link" href="#about-me">About Me</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#skills">Skills</a>
-            </li>
-            <li className="nav-item">
               <a className="nav-link" href="#projects">Projects</a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#skills">Skills</a>
+            </li>
             {/* <li className="nav-item">
-              <a className="nav-link" href="#footer">Contact Me</a>
+              <div className="theme-block" onClick={e => changeTheme(e)}>
+                <i className="fas fa-lightbulb"></i>
+                <i className="far fa-lightbulb"></i>
+              </div>
             </li> */}
           </ul>
         </div>

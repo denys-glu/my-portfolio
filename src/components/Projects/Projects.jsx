@@ -7,7 +7,7 @@ import './Projects.styles.css';
 //Images
 import vfLogo from '../../assets/images/vf-logo.png';
 import myKanban from '../../assets/images/myKanban.png';
-import iPhoneFrame from '../../assets/images/iphone-frame.png';
+import youTubeAPI from '../../assets/images/youtube_api.png';
 import slide1 from '../../assets/slides/1.png';
 import slide2 from '../../assets/slides/2.png';
 import slide3 from '../../assets/slides/3.png';
@@ -31,16 +31,16 @@ const Projects = () => {
                   <p className="card-text">Your mobile independence</p>
                   <button className="btn btn-secondary"
                     data-toggle="modal"
-                    data-target="#exampleModal">Show Details</button>
+                    data-target="#myVodafone">Show Details</button>
                 </div>
                 <div className="overlay"></div>
               </div>
               {/* Modal */}
-              <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div className="modal fade" id="myVodafone" tabIndex="-1" aria-labelledby="myVodafoneLabel" aria-hidden="true">
                 <div className="modal-dialog">
                   <div className="modal-content">
                     <div className="modal-header">
-                      <h5 className="modal-title" id="exampleModalLabel">My Vodafone</h5>
+                      <h5 className="modal-title" id="myVodafoneLabel">My Vodafone</h5>
                       <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -49,32 +49,19 @@ const Projects = () => {
                       {/* Carousel */}
 
                       <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
-                        {/* <ol class="carousel-indicators">
-                      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                    </ol> */}
+
                         <div className="carousel-inner">
                           <div className="carousel-item active">
                             <img src={slide1} height="997" className="d-block w-100" alt="..." />
-                            {/* <div className="carousel-caption d-none d-md-block">
-                          <h5>First slide label</h5>
-                          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                        </div> */}
+
                           </div>
                           <div className="carousel-item">
                             <img src={slide2} height="997" className="d-block w-100" alt="..." />
-                            {/* <div className="carousel-caption d-none d-md-block">
-                          <h5>Second slide label</h5>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div> */}
+
                           </div>
                           <div className="carousel-item">
                             <img src={slide3} height="997" className="d-block w-100" alt="..." />
-                            {/* <div className="carousel-caption d-none d-md-block">
-                          <h5>Third slide label</h5>
-                          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                        </div> */}
+  
                           </div>
                         </div>
                         <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
@@ -115,16 +102,16 @@ const Projects = () => {
                   <p className="card-text">Simple kanban board for daily use</p>
                   <button className="btn btn-secondary"
                     data-toggle="modal"
-                    data-target="#exampleModal1">Show Details</button>
+                    data-target="#myKanban">Show Details</button>
                 </div>
                 <div className="overlay"></div>
               </div>
               {/* Modal */}
-              <div className="modal fade" id="exampleModal1" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div className="modal fade" id="myKanban" tabIndex="-1" aria-labelledby="myKanban" aria-hidden="true">
                 <div className="modal-dialog">
                   <div className="modal-content">
                     <div className="modal-header">
-                      <h5 className="modal-title" id="exampleModalLabel">MyKanban</h5>
+                      <h5 className="modal-title" id="myKanban">MyKanban</h5>
                       <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -133,23 +120,69 @@ const Projects = () => {
 
                       <div className="project-description mt-4">
                         <h5 className="text-center">Project highlights</h5>
-                        <ul class="list-group">
-                          <li class="list-group-item">Drag&Drop feauture</li>
-                          <li class="list-group-item">MERN stack</li>
-                          <li class="list-group-item">Hosted at AWS</li>
-                          <li class="list-group-item">Ability to group by project and tickets</li>
+                        <ul className="list-group">
+                          <li className="list-group-item">Drag&Drop feauture</li>
+                          <li className="list-group-item">MERN stack</li>
+                          <li className="list-group-item">Hosted at Heroku</li>
+                          <li className="list-group-item">Ability to group by project and tickets</li>
                         </ul>
                       </div>
 
                     </div>
                     <div className="modal-footer">
                       <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
-                      <a type="button" href="http://18.224.15.81/" target="_blank" className="btn btn-main">Try It!</a>
+                      <a type="button" href="http://bit.ly/myKanban" target="_blank" className="btn btn-warning">Try It!</a>
                     </div>
                   </div>
                 </div>
               </div>
               {/* Modal ends */}
+              
+            </div>
+            <div className="col-12 col-sm-6 col-md-12 col-lg-6 pt-3 mt-3">
+              <div className="card">
+                <img src={youTubeAPI} className="card-img-top" width="288" height="288" alt="my vodafone project logo" />
+                <div className="card-body">
+                  <h3 className="card-title">YouTube API Eater</h3>
+                  <p className="card-text">Test assignement that I did during one of the interviews.</p>
+                  <button className="btn btn-secondary"
+                    data-toggle="modal"
+                    data-target="#youtubeEaterModal">Show Details</button>
+                </div>
+                <div className="overlay"></div>
+              </div>
+              {/* Modal */}
+              <div className="modal fade" id="youtubeEaterModal" tabIndex="-1" aria-labelledby="youtubeEaterModal" aria-hidden="true">
+                <div className="modal-dialog">
+                  <div className="modal-content">
+                    <div className="modal-header">
+                      <h5 className="modal-title" id="youtubeEaterModal">YouTube API Eater</h5>
+                      <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div className="modal-body">
+
+                      <div className="project-description mt-4">
+                        <h5 className="text-center">Project highlights</h5>
+                        <ul className="list-group">
+                          <li className="list-group-item">Dinamicly changes amount of columns.</li>
+                          <li className="list-group-item">React, Express and Heroku</li>
+                          <li className="list-group-item">Utilizes Express application to consume YouTube API</li>
+                          <li className="list-group-item">Pagination*(work is still in progress)</li>
+                        </ul>
+                      </div>
+
+                    </div>
+                    <div className="modal-footer">
+                      <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <a type="button" href="http://bit.ly/youTubeAPIeater" target="_blank" className="btn btn-warning">Try It!</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* Modal ends */}
+              
             </div>
           </div>
         </div>
