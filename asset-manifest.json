@@ -1,32 +1,32 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.6aa31b1b.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.b329be8b.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.b329be8b.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.74ec7acd.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.cd561916.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.cd561916.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.ed6aaecb.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.ed6aaecb.js.map",
     "static/css/2.c8d40996.chunk.css": "/my-portfolio/static/css/2.c8d40996.chunk.css",
-    "static/js/2.4dceadf5.chunk.js": "/my-portfolio/static/js/2.4dceadf5.chunk.js",
-    "static/js/2.4dceadf5.chunk.js.map": "/my-portfolio/static/js/2.4dceadf5.chunk.js.map",
+    "static/js/2.ca9a2ed9.chunk.js": "/my-portfolio/static/js/2.ca9a2ed9.chunk.js",
+    "static/js/2.ca9a2ed9.chunk.js.map": "/my-portfolio/static/js/2.ca9a2ed9.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
     "static/css/2.c8d40996.chunk.css.map": "/my-portfolio/static/css/2.c8d40996.chunk.css.map",
-    "static/css/main.6aa31b1b.chunk.css.map": "/my-portfolio/static/css/main.6aa31b1b.chunk.css.map",
-    "static/js/2.4dceadf5.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.4dceadf5.chunk.js.LICENSE.txt",
+    "static/css/main.74ec7acd.chunk.css.map": "/my-portfolio/static/css/main.74ec7acd.chunk.css.map",
+    "static/js/2.ca9a2ed9.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.ca9a2ed9.chunk.js.LICENSE.txt",
     "static/media/1.7a2565c6.png": "/my-portfolio/static/media/1.7a2565c6.png",
     "static/media/2.3d85cf6a.png": "/my-portfolio/static/media/2.3d85cf6a.png",
     "static/media/3.ce7bfc01.png": "/my-portfolio/static/media/3.ce7bfc01.png",
     "static/media/all.min.css": "/my-portfolio/static/media/fa-solid-900.46fdbd2d.woff",
-    "static/media/iphone-frame.4d3b017c.png": "/my-portfolio/static/media/iphone-frame.4d3b017c.png",
     "static/media/me_250.00319122.png": "/my-portfolio/static/media/me_250.00319122.png",
     "static/media/myKanban.d6e102ce.png": "/my-portfolio/static/media/myKanban.d6e102ce.png",
     "static/media/main.css": "/my-portfolio/static/media/slider-1-1920x1080.e6b42c00.jpg",
-    "static/media/vf-logo.2618e5c2.png": "/my-portfolio/static/media/vf-logo.2618e5c2.png"
+    "static/media/vf-logo.2618e5c2.png": "/my-portfolio/static/media/vf-logo.2618e5c2.png",
+    "static/media/youtube_api.aeb9b01f.png": "/my-portfolio/static/media/youtube_api.aeb9b01f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ed6aaecb.js",
     "static/css/2.c8d40996.chunk.css",
-    "static/js/2.4dceadf5.chunk.js",
-    "static/css/main.6aa31b1b.chunk.css",
-    "static/js/main.b329be8b.chunk.js"
+    "static/js/2.ca9a2ed9.chunk.js",
+    "static/css/main.74ec7acd.chunk.css",
+    "static/js/main.cd561916.chunk.js"
   ]
 }
